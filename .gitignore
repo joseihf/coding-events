@@ -12,3 +12,9 @@ codeweekeu/static/css/scss/.sass-cache/
 staticfiles/
 .DS_Store
 Gemfile*
+static/css/dark.css
+static/css/style.css
+static/css/colors.css
+static/js/functions.css
+
+
