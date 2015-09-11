@@ -15,7 +15,10 @@
 	<title>Europe Code Week {% block title %}{% endblock title %}</title>
 
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=greek-ext,cyrillic,latin' rel='stylesheet' type='text/css'>
+
+	<!-- Custom font -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+
 	{% comment %}
 	<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
 	{% endcomment %}
@@ -41,7 +44,7 @@
 	<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css" />
 	<script type="text/javascript" src="{% static 'js/modernizr.271.min.js' %}"></script>
 </head>
-<body>
+<body class="stretched no-transition">
 {% block main_navigation %}
 	{% include 'layout/top_navigation.html' %}
 {% endblock %}
